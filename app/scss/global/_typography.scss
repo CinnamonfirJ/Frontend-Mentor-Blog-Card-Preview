@@ -1,0 +1,23 @@
+@font-face {
+  font-family: "FigTree";
+  src: url(/assets/fonts/Figtree-VariableFont_wght.ttf);
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 800;
+  color: var(--Black);
+  line-height: 1.1;
+  margin-top: 0;
+}
+
+p {
+  margin-top: 0;
+}
+
+a,
+a:visited,
+a:active {
+  text-decoration: none;
+}
