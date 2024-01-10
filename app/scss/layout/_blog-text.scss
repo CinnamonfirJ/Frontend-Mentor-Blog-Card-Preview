@@ -16,6 +16,10 @@
   margin-bottom: 10px;
 }
 
+.blog-title {
+  transition: all 0.3s ease-in;
+}
+
 .blog-title:hover {
   color: var(--backgorund-color);
   cursor: pointer;

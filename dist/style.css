@@ -67,7 +67,7 @@ a:active {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  transition: all 0.3s ease;
+  transition: all 0.3s ease-in;
 }
 .blog-preview-card.shadow.shift {
   transform: translate(-48%, -48%);
@@ -117,6 +117,10 @@ a:active {
   color: var(--Black);
   border-radius: 6px;
   margin-bottom: 10px;
+}
+
+.blog-title {
+  transition: all 0.3s ease-in;
 }
 
 .blog-title:hover {
